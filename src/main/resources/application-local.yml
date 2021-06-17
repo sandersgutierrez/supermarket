@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+# Database
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cotomarket
+    username: sanders
+    password: 12345
+
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: create-drop
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    defer-datasource-initialization: true
+    open-in-view: false

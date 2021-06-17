@@ -1,0 +1,7 @@
+spring:
+  profiles:
+    active: ${SCOPE_SUFFIX}
+
+server:
+  servlet:
+    context-path: /

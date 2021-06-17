@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+# Database
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/cotomarket
+    username: sanders
+    password: 12345
