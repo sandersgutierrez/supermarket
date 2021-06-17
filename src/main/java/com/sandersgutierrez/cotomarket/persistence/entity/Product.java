@@ -18,7 +18,7 @@ public class Product {
 
     private Double price;
 
-    private Integer stockQuantity;
+    private Integer stock;
 
     private Boolean state;
 
@@ -66,12 +66,12 @@ public class Product {
         this.price = price;
     }
 
-    public Integer getStockQuantity() {
-        return stockQuantity;
+    public Integer getStock() {
+        return stock;
     }
 
-    public void setStockQuantity(Integer stockQuantity) {
-        this.stockQuantity = stockQuantity;
+    public void setStock(Integer stock) {
+        this.stock = stock;
     }
 
     public Boolean getState() {
