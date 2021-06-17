@@ -2,8 +2,8 @@ package com.sandersgutierrez.cotomarket.domain;
 
 public class Product {
     private int productId;
-    private String name;
     private int categoryId;
+    private String name;
     private double price;
     private int stock;
     private boolean active;
