@@ -3,7 +3,7 @@ package com.sandersgutierrez.cotomarket.persistence.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "purchases_products")
+@Table(name = "compras_producto")
 public class ComprasProducto {
     @EmbeddedId
     private ComprasProductoPK id;
