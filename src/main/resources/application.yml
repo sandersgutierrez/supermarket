@@ -1,6 +1,6 @@
 spring:
   profiles:
-    active: ${SCOPE_SUFFIX}
+    active: local
 
 server:
   servlet:
