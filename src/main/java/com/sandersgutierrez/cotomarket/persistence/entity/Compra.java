@@ -27,7 +27,7 @@ public class Compra {
     @JoinColumn(name = "cliente_id", insertable = false, updatable = false)
     private Cliente cliente;
 
-    @OneToMany(mappedBy = "producto")
+    @OneToMany(mappedBy = "producto", cascade = {CascadeType.ALL})
     private List<ComprasProductos> productos;
 
     public Integer getCompraId() {
