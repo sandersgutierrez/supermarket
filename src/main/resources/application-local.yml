@@ -12,7 +12,12 @@ spring:
   jpa:
     show-sql: true
     hibernate:
-      ddl-auto: create
+      ddl-auto: update
     database-platform: org.hibernate.dialect.PostgreSQLDialect
     defer-datasource-initialization: true
     open-in-view: false
+
+  sql:
+    init:
+      mode: always
+      data-locations: classpath:data.sql

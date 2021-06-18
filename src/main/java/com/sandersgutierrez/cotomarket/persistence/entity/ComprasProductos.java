@@ -3,10 +3,10 @@ package com.sandersgutierrez.cotomarket.persistence.entity;
 import javax.persistence.*;
 
 @Entity
-@Table(name = "compras_producto")
-public class ComprasProducto {
+@Table(name = "compras_productos")
+public class ComprasProductos {
     @EmbeddedId
-    private ComprasProductoPK id;
+    private ComprasProductosPK id;
 
     private Integer cantidad;
 
@@ -22,11 +22,11 @@ public class ComprasProducto {
     @JoinColumn(name = "producto_id", insertable = false, updatable = false)
     private Producto producto;
 
-    public ComprasProductoPK getId() {
+    public ComprasProductosPK getId() {
         return id;
     }
 
-    public void setId(ComprasProductoPK id) {
+    public void setId(ComprasProductosPK id) {
         this.id = id;
     }
 
