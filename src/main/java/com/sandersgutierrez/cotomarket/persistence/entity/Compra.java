@@ -9,7 +9,7 @@ import java.util.List;
 public class Compra {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Integer id;
+    private Integer compraId;
 
     @Column(name = "cliente_id")
     private Integer clienteId;
@@ -30,12 +30,12 @@ public class Compra {
     @OneToMany(mappedBy = "producto")
     private List<ComprasProductos> productos;
 
-    public Integer getId() {
-        return id;
+    public Integer getCompraId() {
+        return compraId;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public void setCompraId(Integer compraId) {
+        this.compraId = compraId;
     }
 
     public Integer getClienteId() {
