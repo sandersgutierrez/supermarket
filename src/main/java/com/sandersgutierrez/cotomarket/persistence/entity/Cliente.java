@@ -19,6 +19,8 @@ public class Cliente {
 
     private String direccion;
 
+    private String telefono;
+
     private String correo;
 
     @OneToMany(mappedBy = "cliente")
@@ -62,6 +64,14 @@ public class Cliente {
 
     public void setDireccion(String direccion) {
         this.direccion = direccion;
+    }
+
+    public String getTelefono() {
+        return telefono;
+    }
+
+    public void setTelefono(String telefono) {
+        this.telefono = telefono;
     }
 
     public String getCorreo() {
