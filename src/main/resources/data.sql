@@ -139,8 +139,3 @@ INSERT INTO compras_productos (compra_id, producto_id, cantidad, total, estado)
 VALUES (1, 49, 2, 16400, true);
 INSERT INTO compras_productos (compra_id, producto_id, cantidad, total, estado)
 VALUES (1, 24, 1, 4000, true);
-
--- SE REINICIAN LAS SECUENCIAS SEGÚN LOS DATOS INICIALES
-SELECT setval('public.productos_id_seq', 50, true);
-SELECT setval('public.categorias_id_seq', 8, true);
-SELECT setval('public.compras_id_seq', 1, true);

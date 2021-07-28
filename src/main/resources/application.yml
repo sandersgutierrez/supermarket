@@ -1,7 +1,17 @@
+server:
+  port: ${PORT}
+  servlet:
+    context-path: /
+  compression:
+    enabled: true
+    mime-types: text/html,text/xml,text/css,text/javascript,application/javascript,application/json
+    min-response-size: 1024
+
 spring:
   profiles:
     active: prod
-
-server:
-  servlet:
-    context-path: /
+  datasource:
+    driver-class-name: ${database.db-driver-class-name}
+    url: jdbc:${database.db-driver}://${database.db-host}:${database.db-port}/${database.db-name}
+    username: ${database.db-user}
+    password: ${database.db-pass}
