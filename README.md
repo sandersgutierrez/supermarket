@@ -1,12 +1,12 @@
 # Web Marketplace
 
-## 💬️ Introduction
+## :tea: Introduction
 
 This is a demo application for my students of the BootCamp Java
 of [MercadoLibre](https://www.linkedin.com/company/mercadolibre/) that aims to be a knowledge support for the final
 project.
 
-## 🏁 How To Start
+## :checkered_flag: How To Start
 
 1. Install Java 11, go to [SDKMAN](https://sdkman.io/install) for install SDKMAN
 
@@ -27,10 +27,10 @@ project.
    ./gradlew bootRun
    ```
 
-## 🧔🏿 Credits
+## 👨🏿‍💻 Credits
 
 - [Sanders Gutiérrez](https://www.linkedin.com/in/sandersgutierrez) - Software Developer
 
-## 🔒 License
+## :unlock: License
 
 This project is open-sourced software licensed under the [MIT license](LICENSE).
