@@ -20,7 +20,7 @@ project.
    ```
 3. Clone this repository:
    ```shell
-   git clone https://github.com/sandersgutierrez/web-marketplace.git
+   git clone https://github.com/sandersgutierrez/marketplace.git
    ```
 4. Run application
    ```shell
