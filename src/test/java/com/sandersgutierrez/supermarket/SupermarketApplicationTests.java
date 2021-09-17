@@ -1,10 +1,10 @@
-package com.sandersgutierrez.webmarketplace;
+package com.sandersgutierrez.supermarket;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WebMarketplaceApplicationTests {
+class SupermarketApplicationTests {
 
     @Test
     void contextLoads() {
