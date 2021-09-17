@@ -5,7 +5,7 @@ database:
   db-port: 5432
   db-user: sanders
   db-pass: 12345
-  db-name: webmarketplace
+  db-name: supermarket
 
 spring:
   jpa:
